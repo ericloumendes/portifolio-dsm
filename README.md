@@ -10,7 +10,6 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 <ul><a href="#smart-farm">1º Semestre • 1/2024 • Smart-farm</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#smart-farm-solucao">Prévia da Solução</a></ul>
     <ul>◻️ <a href="#smart-farm-tecnologias">Tecnologias Utilizadas</a></ul>
     <ul>◻️ <a href="#smart-farm-contribuicoes">Contribuições Pessoais</a></ul>
     <ul>◻️ <a href="#smart-farm-licoes">Lições Aprendidas</a>
@@ -21,16 +20,14 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 </ul>
 </div>
 <div class="semestre2">
-<ul><a href="#processos-otimizados-de-contas">2º Semestre • 2/2024 • Cloudstock</a>
+<ul><a href="#cloudstock">2º Semestre • 2/2024 • Cloudstock</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto-">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução-">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas-">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais-">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas-">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills-">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills-">Soft Skills</a></ul>
+    <ul>◻️ <a href="#cloudstock-tecnologias">Tecnologias Utilizadas</a></ul>
+    <ul>◻️ <a href="#cloudstock-contribuicoes">Contribuições Pessoais</a></ul>
+    <ul>◻️ <a href="#cloudstock-licoes">Lições Aprendidas</a>
+    <ul>◻️ <a href="#cloudstock-hard">Hard Skills</a></ul>
+    <ul>◻️ <a href="#cloudstock-soft">Soft Skills</a></ul>
     </ul>
   </details>
 </ul>
@@ -68,19 +65,6 @@ Tecnologia de São José dos Campos (FATEC).</p>
 <p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
 <p align="center"><img src="https://i.imgur.com/4puuwrm.gif" widht="20%"></img>
 <p align="justify">O Smart Farm é um software desenvolvido para análizar e armazenar remotamente dados de uma câmera tecnológica projetada para otimizar o cultivo de plantas e hortaliças. Préviamente, a coleta e análise de dados emitidos pela estufa eram feitos de forma manual através do Excel, método que acabou se mostrando extremamanete ineficiente, gerando a necessidade do desenvolvimento da aplicação. Atualmente, a coleta e análise dos dados são realizadas manualmente por meio da aplicação Excel. No entanto, esse método se mostra moroso e exigente para a equipe, além de dificultar o acompanhamento eficaz do desenvolvimento das plantas.</p>
-<br>
-<h3 id="smart-farm-solucao">Prévia da Solução</h3>
-<p align="justify">A partir dos objetivos propostos a aplicação foi dividida nas seguintes funcionalidades:</p>
-<h4>Dashboard</h4>
-<p align="justify">Na <b>Dashboard</b>, o usuário pode vizualizar os últimos dados de Umidade de ambiente, umidade do solo, temperatura e volume d'água enviados pela estufa. Além disso o usuário pode vizualizar se houve um aumento ou diminuição de um dado em particular desde a último envio.</p>
-<h4>Importar</h4>
-<p align="justify">No botão <b>Importar</b>, o usuário pode importar manualmente um arquivo xls contendo os dados da estufa para ser armazenado na plataforma.</p>
-<h4>Baixar</h4>
-<p align="justify">No botão <b>Baixar</b>, o usuário pode efetuar o download de um arquivo xls que contém todos os dados da estufa armazenada em um período determinado de tempo.</p>
-<h4>Gráficos</h4>
-<p align="justify">Na aba <b>Gráficos</b>, o usuário pode vizualizar a variação dos dados em um período determinado de tempo. Cada tipo de dado (umidade do ambiente, umidade do solo e etc) possui um gráfico em particular nesta tela, facilitando assim o processo de análise de dados da estufa.</p>
-
-
 
 <br>
 <h3 id="smart-farm-tecnologias">Tecnologias Utilizadas</h3>
@@ -90,11 +74,11 @@ Tecnologia de São José dos Campos (FATEC).</p>
 <p align="justify"><a href="https://www.figma.com/">Figma:</a> para o desenvolvimento e prototipação das wireframes.</p>
 <br>
 <h3 id="smart-farm-contribuicoes">Contribuições Pessoais</h3>
-<p align="justify">Desempenhei o papel de Dev team, papel responsável pelo desenvolvimento da aplicação, 
+<p align="justify">Nesse semestre fui membro da equipe Skyfly, onde desempenhei o papel de Dev team, papel esse responsável pelo desenvolvimento da aplicação, 
 fui responsável por integrar a estufa à aplicação, além de hospedar e aplicação em um raspberry 3b e criar e configurar as tabelas no banco de dados.</p>
 <br>
 <h3 id="smart-farm-licoes">Lições Aprendidas</h3>
-<p align="justify">Tive o meu primeiro contato com o Scrum e com a função de dev team, neste semestre tive o primeiro contato com python flask além do sistem gerenciador de banco de dados Mysql. Também iniciei meus estudos quanto a tecnologias relacionadas ao devops (docker).</p>
+<p align="justify">Tive o meu primeiro contato com o Scrum e com a função de dev team, neste semestre tive o primeiro contato com python flask além do sistem gerenciador de banco de dados Mysql. Também iniciei meus estudos quanto a tecnologias relacionadas ao devops (docker). Além disso tive participações quando a modelagem do banco de dados e desenvolvimento do mapa de funcionalidades do software.</p>
 <h3 id="smart-farm-hard">Hard Skills</h3>
 <details>
   <summary><b>Clique para ver a lista de hard skills desenvolvidas</b></summary>
@@ -131,54 +115,49 @@ fui responsável por integrar a estufa à aplicação, além de hospedar e aplic
 <p align="justify">O Cloudstock é um software desenvolvido com o fim de auxiliar a gestão de estoque de uma empresa. A necessidade era de que a aplicação
   fosse separada em níveis de usuários distintos, onde o funcionário apenas poderia definir entrada e saída de produtos, e o gestor poderia cadastrar um novo
   produto no estoque, além de ter acesso à relatórios mensais sobre a saída e entrada de produtos, além da movimentação monetária consequente.</p>
+  
 <br>
-<h3 id="smart-farm-solucao">Prévia da Solução</h3>
-<p align="justify">A partir dos objetivos propostos a aplicação foi dividida nas seguintes funcionalidades:</p>
-<h4>Dashboard</h4>
-<p align="justify">Na <b>Dashboard</b>, o usuário pode vizualizar os últimos dados de Umidade de ambiente, umidade do solo, temperatura e volume d'água enviados pela estufa. Além disso o usuário pode vizualizar se houve um aumento ou diminuição de um dado em particular desde a último envio.</p>
-<h4>Importar</h4>
-<p align="justify">No botão <b>Importar</b>, o usuário pode importar manualmente um arquivo xls contendo os dados da estufa para ser armazenado na plataforma.</p>
-<h4>Baixar</h4>
-<p align="justify">No botão <b>Baixar</b>, o usuário pode efetuar o download de um arquivo xls que contém todos os dados da estufa armazenada em um período determinado de tempo.</p>
-<h4>Gráficos</h4>
-<p align="justify">Na aba <b>Gráficos</b>, o usuário pode vizualizar a variação dos dados em um período determinado de tempo. Cada tipo de dado (umidade do ambiente, umidade do solo e etc) possui um gráfico em particular nesta tela, facilitando assim o processo de análise de dados da estufa.</p>
-
-
-
-<br>
-<h3 id="smart-farm-tecnologias">Tecnologias Utilizadas</h3>
-<p align="justify"><a href="https://flask.palletsprojects.com/en/stable/">Flask:</a> Para o densenvolvimento do backend e frontend da aplicação.</p>
+<h3 id="cloudstock-tecnologias">Tecnologias Utilizadas</h3>
+<p align="justify"><a href="https://www.typescriptlang.org">Typescript:</a> Linguagem de programação utilizada.</p>
+<p align="justify"><a href="https://react.dev">React:</a> Para o desenvolvimento do frontend.</p>
+<p align="justify"><a href="https://expressjs.com">Expressjs:</a> Para o desenvolvimento do backend.</p>
 <p align="justify"><a href="https://www.docker.com">Docker:</a> para as integrações finais da aplicação.</p>
 <p align="justify"><a href="https://www.mysql.com">Mysql:</a> Sistema gerenciador de banco de dados utilizado.</p>
 <p align="justify"><a href="https://www.figma.com/">Figma:</a> para o desenvolvimento e prototipação das wireframes.</p>
 <br>
-<h3 id="smart-farm-contribuicoes">Contribuições Pessoais</h3>
-<p align="justify">Desempenhei o papel de Dev team, papel responsável pelo desenvolvimento da aplicação, 
-fui responsável por integrar a estufa à aplicação, além de hospedar e aplicação em um raspberry 3b e criar e configurar as tabelas no banco de dados.</p>
+<h3 id="cloudstock-contribuicoes">Contribuições Pessoais</h3>
+<p align="justify">Nesse semestre também fui membro da equipe Skyfly, onde desempenhei o papel de Dev team, papel esse responsável pelo desenvolvimento da aplicação. 
+fui pelo desenvolvimento da estrtura base do backend da aplicação, criar e configurar as tabelas no banco de dados além de integrar a aplicação com docker. Também fui efetivamente
+responsável pelo modelo do banco de dados da aplicação bem como pelo mapeamento das funcionalidades da aplicação no ponto de vista de sistema.</p>
 <br>
-<h3 id="smart-farm-licoes">Lições Aprendidas</h3>
-<p align="justify">Tive o meu primeiro contato com o Scrum e com a função de dev team, neste semestre tive o primeiro contato com python flask além do sistem gerenciador de banco de dados Mysql. Também iniciei meus estudos quanto a tecnologias relacionadas ao devops (docker).</p>
-<h3 id="smart-farm-hard">Hard Skills</h3>
+<h3 id="cloudstock-licoes">Lições Aprendidas</h3>
+<p align="justify">Aqui tive meu primeiro contato com aplicações SPAs. Além disso desenvolvi ainda mais minhas habilidades de modelagem de banco de dados bem como de estruturação desse
+tipo de aplicação. Também melhorei minhas habilidades com docker, conseguentes da dockerização de forma mais eficaz da aplicação. Além de tudo isso, com o aumento natural de com complexidade
+do projeto, surgiu a necessidade de que houvesse o compartilhamento de conhecimento dentre os membros do grupo, o que consegui contribuir com conhecimentos sobre o uso do sequileze além de 
+dicas sobre a dockerização da aplicação.</p>
+<h3 id="cloudstock-hard">Hard Skills</h3>
 <details>
   <summary><b>Clique para ver a lista de hard skills desenvolvidas</b></summary>
   <br>
   <ul>
-    <li>Flask</li>
+    <li>Typescript</li>
+    <li>React</li>
+    <li>Expressjs</li>
     <li>Docker</li>
     <li>Mysql</li>
     <li>Figma</li>
   </ul>
   
 </details>
-<h3 id="smart-farm-soft">Soft Skills</h3>
+<h3 id="cloudstock-soft">Soft Skills</h3>
 <details>
 <summary><b>Clique para ver a lista de soft skills desenvolvidas</b></summary>
   <br>
   <ul>
-    <li>Trabalho em equipe</li>
+    <li>Solução de problemas</li>
     <li>Gestão de tempo</li>
     <li>Comunicação</li>
-    <li>SCRUM</li>
+    <li>Transferência de conhecimento</li>
   </ul>
 </details>
 <br>
