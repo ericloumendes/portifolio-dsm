@@ -34,16 +34,14 @@ como parte dos requisitos necessários para a obtenção do título de Tecnólog
 </div>
 </div>
 <div class="semestre3">
-<ul><a href="#airplan">3º Semestre • 1/2025 • BeeOnTime</a>
+<ul><a href="#beeontime">3º Semestre • 1/2025 • BeeOnTime</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto--">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução--">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas--">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais--">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas--">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills--">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills--">Soft Skills</a></ul>
+    <ul>◻️ <a href="#beeontime-tecnologias">Tecnologias Utilizadas</a></ul>
+    <ul>◻️ <a href="#beeontime-contribuicoes">Contribuições Pessoais</a></ul>
+    <ul>◻️ <a href="#beeontime-licoes">Lições Aprendidas</a>
+    <ul>◻️ <a href="#beeontime-hard">Hard Skills</a></ul>
+    <ul>◻️ <a href="#beeontime-soft">Soft Skills</a></ul>
     </ul>
   </details>
 </ul>
@@ -163,171 +161,67 @@ dicas sobre a dockerização da aplicação.</p>
 <br>
 <p><a href="#sobre-mim">Voltar para o início</a></p>
 </div>
+
 <hr>
-<div class="semestre3">
-<h3>airPLAN</h3>
-<h4>3º Semestre • 1/2021 • <a href="https://github.com/GabrielSG20/Projeto_Integrador_3BD-1Sem2021">Repositório Github</a></h4>
-<p align="justify">Parceiro Acadêmico: <a href="https://embraer.com/br/pt">Embraer</a></p>
-<p align="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/airplan_logo.png" widht="20%"></img>
-<p align="justify"><a href="https://github.com/GabrielSG20/Projeto_Integrador_3BD-1Sem2021">airPLAIN</a> é uma aplicação que integra três APIs independentes, cujo o objetivo é a otimização da criação e melhorias do controle na documentação de aeronaves, de forma que automatiza e aperfeiçoa a forma de armazenamento dos dados e geração de documentos de forma intuitiva e eficaz.</p>
-<p align="justify">Além disso, a ferramenta mantém, customiza e versiona partes de arquivos em PDF, utilizando regras de negócio específicas para a geração de documentação final formadas de acordo com a lista efetiva de páginas (LEP) selecionadas.</p>
-<h3>Arquitetura do Projeto  </h3>
-<p align="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/airPlan_arq.png" width="100%"></img></p>
+<div id="beeontime">
+<h3>BeeOnTime • <a href="https://github.com/SkyFlyTeam/BeeOnTime-documentation">Repositório Github</a></h3>
+<h4>3º Semestre • 1/2025 </h4>
+<p align="justify">Parceiro Acadêmico: <a href="https://necto.com.br/pt/">Necto Systems</a></p>
+<p align="center"><img src="https://github.com/user-attachments/assets/b56e3060-73c1-40db-8302-7d63664b3882" widht="20%"></img>
+<p align="justify">O BeeOnTime é um software desenvolvido com o fim de grenciar e registrar pontos elêtronicos de trabalho de uma empresa. A necessidade era de que
+a aplicação pudesse ser acessada remotamente pelos funcionários da companhia e que esses pudessem assinalar seus pontos de trabalho de forma confiável e assertiva. 
+Além disso a aplicação também deveria fornecer ao funcionário RH relatórios sobre ausências de pontos e pedidos de férias de funcionários. Como a empresa não possuía
+um sistema confiável para executar tais ações, nos foi dada a missão de desenvolver uma aplicação que cumprisse esses requisítos.</p>
+  
 <br>
-<h3>Prévia da Solução  </h3>
-<p align="justify">A aplicação desenvolvida tem como objetivo a integração de três APIs independentes, capazes de manter, customizar e versionar partes de arquivos em .pdf, utilizando regras de negócio específicas para a geração de documentos finais que dispõe das partes selecionadas, ou seja, um sistema que automatiza e aperfeiçoa de forma automática a criação e armazenagem de documentos de aeronaves.</p>
-<p align="justify">Para isso, as três APIs indepentendetes desenvolvidas, possuem as seguintes funcionalidades: <b>(i) Codelist: </b>ferramenta que cria, altera, salva e deleta a CodeList do cliente, usando inputs do usuário; <b>(ii) List of Effective Pages (LEP): </b>ferramenta que cria, salva ou deleta da LEP, utilizando input do usuário e informações da CodeList na construção da LEP (espécie de sumário); e <b>(iii) PDF Compilation: </b>ferramenta para compilar arquivos em .pdf, utilizando input e informações da CodeList e/ou LEP para criar o arquivo <i>full</i> ou <i>delta</i>.</p>
-<details>
-  <summary><b>Menu Principal com as três APIs independentes e suas funcionalidades</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/GabrielSG20/Projeto_Integrador_3BD-1Sem2021/raw/PL001/imagens%20telas/menu.png" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify"> A funcionalidade CodeList permite a criação, a consulta e a importação de CodeLists e o seu armazenamento em banco de dados, a partir dos inputs fornecidos pelo usuário como o código da aeronave, código secundário de identificação, tags e atributos necessários para criação e identificação dos documentos.</p>
-<details>
-  <summary><b>Detalhe da funcionalidade CodeList</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/CodeList.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Já a segunda API, permite a criação da LEP (<i>List of Effective Pages</i>) de forma automática, lendo o rodapé das páginas da CodeList e formando um sumário armazenados em arquivos do tipo .doc e .pdf .</p>
-<details>
-  <summary><b>Detalhe da funcionalidade List of Effective Pages (LEP)</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/LEP.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Por fim, a funcionalidade PDF Compilation permite a compilação dos arquivos baseando-se no Codelist e na LEP e o download do arquivo compilado em .pdf, de acordo com os inputs do usuário nas suas versões <i>full</i> e <i>delta</i>.</p>
-<details>
-  <summary><b>Detalhe da funcionalidade PDF Compilation</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/3Sem/pdfComp.gif" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
+<h3 id="beeontime-tecnologias">Tecnologias Utilizadas</h3>
+<p align="justify"><a href="https://www.typescriptlang.org">Typescript:</a> Linguagem de programação utilizada no frontend.</p>
+<p align="justify"><a href="https://nextjs.org">Nextjs:</a> Para o desenvolvimento do frontend.</p>
+<p align="justify"><a href="https://www.java.com/pt-BR/">Java:</a> Linguagem de programação utilizada no backend.</p>
+<p align="justify"><a href="https://spring.io/projects/spring-boot">SpringBoot:</a> Para o desenvolvimento do backend.</p>
+<p align="justify"><a href="https://www.docker.com">Docker:</a> para as integrações finais da aplicação.</p>
+<p align="justify"><a href="https://www.mysql.com">Mysql:</a> Sistema gerenciador de banco de dados utilizado.</p>
+<p align="justify"><a href="https://www.mysql.com">MongoDB:</a> Sistema gerenciador de banco de dados utilizado.</p>
+<p align="justify"><a href="https://www.figma.com/">Figma:</a> para o desenvolvimento e prototipação das wireframes.</p>
 <br>
-<h3>Tecnologias Utilizadas  </h3>
-<p align="justify"><a href="https://www.java.com/pt-BR/">Java SE 14:</a> linguagem para desenvolvimento da aplicação para back-end.</p>
-<p align="justify"><a href="https://spring.io/">Spring Boot:</a> framework para Java utilizada para facilitar a configuração e o gerenciamento das dependências do projeto.</p>
-<p align="justify"><a href="https://www.javascript.com/">JavaScript:</a> linguagem para desenvolvimento da aplicação para front-end.</p>
-<p align="justify"><a href="https://www.thymeleaf.org/">Thymeleaf:</a> utilizada para comunicação entre o front-end e a PAI Rest elaborada no back-end.</p>
-<p align="justify"><a href="https://www.mysql.com/">MySQL:</a> SGBD para desenvolvimento do Banco de Dados.</p>
-<p align="justify"><a href="https://trello.com/pt-BR">Trello:</a> ferramenta utilizada para a Gestão de Projetos utilizando a metodologia Scrum.</p>
+<h3 id="beeontime-contribuicoes">Contribuições Pessoais</h3>
+<p align="justify">Nesse semestre, assim como nos anteriores, fui membro da equipe Skyfly e desempenhei o papel de Dev team, papel esse responsável pelo desenvolvimento da aplicação. 
+fui pelo desenvolvimento da estrtura base do backend e frontend da aplicação além integrar a aplicação com docker. Também fui efetivamente
+responsável pelo desenvolvimento da arquitetura de micro-serviços utilizado na aplicação.</p>
 <br>
-<h3>Contribuições Pessoais  </h3>
-<p align="justify">Desempenhei o papel de Product Owner, realizando o levantamente dos requisitos para construção do backlog do produto e entendimento das regras de negócio junto ao cliente, fui responsável pela criação e prototipação das wireframes e avancei nos estudos de UX/UI. Além disso, fui responsável pelo desenvolvimento e arquitetura da funcionalidade CodeList. Sendo as atividades desempenhadas:</p>
-<ul>
-  <li>Definição dos requisitos.</li>
-  <li>UX/UI design.</li>
-  <li>Prototipação das wireframes.</li>
-  <li>Arquitetura da aplicação.</li>
-  <li>Desenvolvimento front-end.</li>
-</ul>
-<br>
-<h3>Lições Aprendidas </h3>
-<p align="justify">Tive o meu primeiro contato com Spring Boot, todavia, pude aprimorar meus conhecimentos em relação ao papel de Product Owner, UX/UI designer e desenvolvimento front-end.</p>
-<h3>Hard Skills  </h3>
+<h3 id="beeontime-licoes">Lições Aprendidas</h3>
+<p align="justify">Aqui tive meu primeiro contato com aplicações com backend separado em micro-serviços. Além disso desenvolvi habilidades de estruturação desse
+tipo de aplicação, mesmo que ainda rústica. Também melhorei minhas habilidades com docker do ponto de vista de desenvolvimento, conseguentes da dockerização de forma mais eficaz da aplicação. Além de tudo isso, melhorei minhas habilidades de comunicação (consequente de compartilhar informações sobre funcionalidades do docker e arquitetura do sistema para os demais membros do grupo).</p>
+<h3 id="beeontime-hard">Hard Skills</h3>
 <details>
-  <summary><b>Clique para ver a lista de hard skills</b></summary>
+  <summary><b>Clique para ver a lista de hard skills desenvolvidas</b></summary>
   <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Tecnologia/Metodologia</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Java</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Spring Boot</td>
-      <td>★★☆☆☆☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Front-end</td>
-      <td>★★★☆☆☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Modelagem de Banco de Dados</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>MySQL</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Figma</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Scrum - Product Owner</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>UX/UI design</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-  </table>
+  <ul>
+    <li>Typescript</li>
+    <li>Nextjs</li>
+    <li>Java</li>
+    <li>SpringBoot</li>
+    <li>Docker</li>
+    <li>Mysql</li>
+    <li>Docker</li>
+    <li>MongoDB</li>
+    <li>Figma</li>
+  </ul>
+  
 </details>
-<h3>Soft Skills  </h3>
+<h3 id="beeontime-soft">Soft Skills</h3>
 <details>
-<summary><b>Clique para ver a lista de soft skills</b></summary>
+<summary><b>Clique para ver a lista de soft skills desenvolvidas</b></summary>
   <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Habilidade</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Proatividade</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Visão de Negócio</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Comunicação Assertiva</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Empatia</td>
-      <td>★★★★★☆☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Inteligência Emocional</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Organização e Planejamento</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-    <tr>
-      <td>Resiliência</td>
-      <td>★★★★★★★☆☆☆</td>
-    </tr>
-  </table>
+  <ul>
+    <li>Solução de problemas</li>
+    <li>Gestão de tempo</li>
+    <li>Comunicação</li>
+    <li>Transferência de conhecimento</li>
+  </ul>
 </details>
 <br>
-<p align="justify"><b>Visão de Negócio:</b> por ser um projeto complexo, conseguir enxergar os objetivos e obter os requerimentos por parte do cliente foi o diferencial da nossa equipe desde o início.</p>
-<p align="justify"><b>Organização e Planejamento:</b> devido à complexidade, ter um bom planejamento foi fundamental para que entregassemos todos MVPs com sucesso.</p>
-<p align="justify"><b>Resiliência/Inteligência Emocional:</b> houve conflitos entre o time de desenvolvimento e precisei ser resiliente para que as entregas fossem feitas, tentando ao máximo apoiar as individualidades de cada um e as focalizando no objetivo final das entregas.</p>
-<br>
+<p><a href="#sobre-mim">Voltar para o início</a></p>
 </div>
 <br>
 <p><a href="#sumário">Voltar para o início</a></p>
