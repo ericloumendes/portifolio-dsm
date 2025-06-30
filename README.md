@@ -95,9 +95,13 @@ fui responsável por integrar a estufa à aplicação, além de hospedar e aplic
   <br>
   <ul>
     <li>Trabalho em equipe</li>
+    Dada a necessidade de integrar toda a aplicação tive que desenvolver minhas habilidades de trabalho em equipe. Ações como instruir colegas a de que forma deve ser desenvolvida tal funcionalidade da mesma forma que ser instruidos por eles para melhorar as integrações da aplicação no raspberry 3, caracterizão essa soft skill;
     <li>Gestão de tempo</li>
+    Com prazos delimitados para entregar minhas tarefas juntamente das demandas dp curso, precisei desenvolver habilidades de gerir meu tempo. Quantas horas vou usar nessa tarefa? Nos deveres do curso? Essas perguntas caracterizão o desenvolver dessa skill;
     <li>Comunicação</li>
+    Como fiz as integrações da aplicação, precisei essencialmente me comunicar com os membros da equipe para entender como outras partes da aplicação funcionavam, facilitando assim o processo.
     <li>SCRUM</li>
+    Toda a aplicação foi desenvolvida sobre a metodologia ágil SCRUM. Por conta disso desenvolvi entendimento, mesmo que básico, sobre trabalhar sobre esse modelo.
   </ul>
 </details>
 <br>
@@ -153,9 +157,13 @@ dicas sobre a dockerização da aplicação.</p>
   <br>
   <ul>
     <li>Solução de problemas</li>
+    Nessa aplicação, por ter ficado responsável pelo mapeamento de funcionalidades do sistema, com o passar do tempo, problemas, cujo o mapeamento não cobria, foram surgindo. Daí surgiu a minha necessidade de me adaptar e solucionar esses problemas;
     <li>Gestão de tempo</li>
+    Agora ainda mais do que antes por conta do crescimento da complexidade da aplicação, precisei melhorar ainda mais minhas habilidades de gestão de tempo;
     <li>Comunicação</li>
+    No desenvolvimento dessa aplicação, precisei melhorar minha comunicação no aspecto de ensinar. Precisei aprender a conseguir explicar coisas de forma simples e objetiva;
     <li>Transferência de conhecimento</li>
+    Conforme a necessidade do nosso grupo, aprendi a importância de estar inteirado e inteirar os demais membros sobre o funcionamento de partes da aplicação (No meu caso docker, squelize e etc).
   </ul>
 </details>
 <br>
@@ -191,7 +199,7 @@ responsável pelo desenvolvimento da arquitetura de micro-serviços utilizado na
 <br>
 <h3 id="beeontime-licoes">Lições Aprendidas</h3>
 <p align="justify">Aqui tive meu primeiro contato com aplicações com backend separado em micro-serviços. Além disso desenvolvi habilidades de estruturação desse
-tipo de aplicação, mesmo que ainda rústica. Também melhorei minhas habilidades com docker do ponto de vista de desenvolvimento, conseguentes da dockerização de forma mais eficaz da aplicação. Além de tudo isso, melhorei minhas habilidades de comunicação (consequente de compartilhar informações sobre funcionalidades do docker e arquitetura do sistema para os demais membros do grupo).</p>
+tipo de aplicação, mesmo que ainda rústica. Também melhorei minhas habilidades com docker do ponto de vista de desenvolvimento, conseguentes da dockerização de forma mais eficaz da aplicação, agora voltada também para o desenvolvimento e não só para o deploy da aplicação. Além de tudo isso, melhorei minhas habilidades de comunicação (consequente de compartilhar informações sobre funcionalidades do docker e arquitetura do sistema para os demais membros do grupo).</p>
 <h3 id="beeontime-hard">Hard Skills</h3>
 <details>
   <summary><b>Clique para ver a lista de hard skills desenvolvidas</b></summary>
@@ -215,9 +223,13 @@ tipo de aplicação, mesmo que ainda rústica. Também melhorei minhas habilidad
   <br>
   <ul>
     <li>Solução de problemas</li>
+    Nessa aplicação aprender a desenvolver a arquitetura de uma aplicação backend com micro-serviços foi um desafio. Diversos problemas relacionados ao funcionamento e crescimento dessa arquitetura. Por isso ter conseguido resolver esses dilemas, me qualificam essa skill;
     <li>Gestão de tempo</li>
+    Nesse projeto, além dos demais dilemas citados nas últimas aplicações, eu precisei a aprender a gerenciar o tempo projeto além de gerênciar o tempo no meu trabalho pessoal (pois eu havia sido contratado);
     <li>Comunicação</li>
+    Como a arquitetura do sistema ficou sobre meus cuidados, aprender a instruir os outros a como desenvolver seguindo a arquitetura além de receber feedbacks sobre a mesma caracterizam essa soft skill;
     <li>Transferência de conhecimento</li>
+    Mais uma vez, a transferência de conhecimentos aparece aqui, porem de forma mais itensificada. Como agora utilizamos o docker efetivamente no meio de desenvolvimento e não somente para o deploy, ensinar os membros a como utilizar essa tecnologia para esse fim foi uma tarefa desafiadora!
   </ul>
 </details>
 <br>
